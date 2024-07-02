@@ -1,7 +1,13 @@
-const Logo = () => {
+import PropTypes from 'prop-types';
+
+const Logo = ({src}) => {
   return (
-    <div>Logo</div>
+    <img src={src} alt="Logo" />
   )
+}
+
+Logo.propTypes = {
+  src: PropTypes.string.isRequired,
 }
 
 export default Logo
