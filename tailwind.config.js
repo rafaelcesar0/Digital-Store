@@ -4,21 +4,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#C92071',
-        secondary: '#B5B6F2',
-        tertiary: '#991956',
-        error: '#EE4266',
-        success: '#52CA76',
-        warning: '#F6AA1C',
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        tertiary: 'var(--color-tertiary)',
+        error: 'var(--color-error)',
+        success: 'var(--color-success)',
+        warning: 'var(--color-warning)',
 
         /* Escalas de cinza */
-        'dark-gray': '#1F1F1F',
-        'dark-gray-2': '#474747',
-        'dark-gray-3': '#666666',
-        'light-gray': '#8F8F8F',
-        'light-gray-2': '#CCCCCC',
-        'light-gray-3': '#F5F5F5',
-        white: '#FFFFFF',
+        'dark-gray': 'var(--dark-gray)',
+        'dark-gray-2': 'var(--dark-gray-2)',
+        'dark-gray-3': 'var(--dark-gray-3)',
+        'light-gray': 'var(--light-gray)',
+        'light-gray-2': 'var(--light-gray-2)',
+        'light-gray-3': 'var(--light-gray-3)',
+        white: 'var(--white)',
       },
       fontFamily: {
         sans: ['Poppins', 'Inter', 'sans-serif'],
