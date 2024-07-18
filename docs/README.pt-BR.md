@@ -42,7 +42,7 @@ Este é o README do projeto. Você pode lê-lo em outros idiomas:
 - [README EUA Inglês](../README.md)
 
 # 1. Objetivo da Projeto 🤓
-Esse projeto é uma prova cuja a atividade é desenvolver o front-end de um E-commerce fictício para aprimorar as habilidades de desenvolvimento web e trabalho em equipe.
+Esse projeto é uma prova cuja a atividade é desenvolver o front-end de um E-commerce fictício para testar as habilidades de desenvolvimento web e trabalho em equipe.
 
 ## 1.1 Tecnologias Utilizadas
 <!-- ![JavaScript](https://skillicons.dev/icons?i=js)

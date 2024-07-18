@@ -43,7 +43,7 @@ This is the README for the project. You can read it in other languages:
 
 
 # 1. Project objective 🤓
-This project is a test whose activity is to develop the Front-End of a fictitious E-commerce to hone web development and teamwork skills.
+This project is a test whose activity is to develop the front-end of a fictitious E-commerce to test web development skills and teamwork.
 
 ## 1.1 Technologies used
 <!-- ![JavaScript](https://skillicons.dev/icons?i=js)
