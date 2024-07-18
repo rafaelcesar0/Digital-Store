@@ -1,4 +1,4 @@
-const Icons = () => {
+const SocialIcons = () => {
     return (
         <>
         <p>Teste icons</p>
@@ -7,4 +7,4 @@ const Icons = () => {
 }
 
 
-export default Icons;
+export default SocialIcons;

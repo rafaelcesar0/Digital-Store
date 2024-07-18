@@ -5,10 +5,9 @@ function App() {
 
   return (
     <>
-    <div className="px-10">
+    <div className="">
       <AppRountes/>
     </div>
-    <Footer />
     </>
   )
 }

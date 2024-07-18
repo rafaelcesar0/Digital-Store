@@ -2,10 +2,10 @@ import Layout from "../components/Layout"
 
 const HomePage = () => {
   return (
-    <Layout>
-        HomePage
-    </Layout>
-  )
+    <>
+      <Layout/>
+    </>
+  );
 }
 
 export default HomePage

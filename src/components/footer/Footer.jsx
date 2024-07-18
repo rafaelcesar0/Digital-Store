@@ -1,14 +1,19 @@
-import Card from './CardsFooter';
-import Desc from './Desc';
-import Icons from './Icons';
+import CardsFooter from './CardsFooter';
+import Description from './Description';
+// import SocialIcons from './SocialIcons';
+// import Logo from '../Logo';
+
 
 
 const Footer = () => {
   return (
-    <>
-      <div>Footer teste</div>
-      <Desc />
-    </>
+    <div className='footer-container bg-[var(--dark-gray)] text-[--white]'>
+        <CardsFooter />
+        <Description />
+    </div>
+
+    
+  
   )
 }
 
