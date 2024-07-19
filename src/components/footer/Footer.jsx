@@ -5,11 +5,11 @@ import Contact from './Contact';
 
 
 
-
+  
 const Footer = () => {
   return (
-    //usar o grid 
-    <div className='grid grid-cols-3 grid-rows-1 pt-12 pl-10 pl-12 pb-5 bg-[var(--dark-gray)] text-[--white]'>
+ 
+    <footer className='grid grid-cols-3 grid-rows-1 pt-12 pl-12 pb-5 bg-[var(--dark-gray)] text-[--white]'>
         
         <div className='mr-7 ml-7 '>
           <Description />
@@ -24,13 +24,13 @@ const Footer = () => {
           <Contact />
         </div>
 
-        <div className='col-span-4 mr-10 mt-10' >
+        <div className='col-span-4 mr-10 mt-12' >
           <hr />
           <p className='flex justify-center items-center mt-5'>@ 2022 Digital College</p>
         </div>
         
 
-    </div>
+    </footer>
 
     
   
