@@ -3,11 +3,14 @@ import Product from "./ProductItens.jsx";
 
 
 const ProductListing = () => {
-  return (
-    <div>
-      <ProductCard props={Product[0]} />
-    </div>
-  )
+  let cards = []
+  for (let i = 0; i < Product.length; i++){
+
+    cards.push (<ProductCard props={Product[i]} />)
+
+  }
+  return  <div className="flex flex-wrap gap-4 "> {cards} </div>
+ 
 }
 
 export default ProductListing
