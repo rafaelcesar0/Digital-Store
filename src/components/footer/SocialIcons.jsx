@@ -1,6 +1,5 @@
 const SocialIcons = () => {
     return (
-        <>
         <div className="flex gap-5 mt-5">
             <a href="#">
                 <img src=".\src\assets\facebook.svg" alt="Logo Facebook" />
@@ -12,7 +11,6 @@ const SocialIcons = () => {
                 <img src=".\src\assets\twitter.svg" alt="Logo Twitter" />
             </a>
         </div>
-        </>
     );
 }
 

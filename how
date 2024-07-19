@@ -1,0 +1,13 @@
+[33mb136814[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfooter[m[33m, [m[1;31morigin/footer[m[33m)[m footer pronto
+[33md66cfc8[m footer atualizacoes
+[33m4e513b1[m Merge branch 'main' of https://github.com/rafaelcesar0/Digital-Store into footer
+[33m87e5eee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m docs: Text amendment Project objective
+[33m94f642a[m fead: add readme's
+[33md3979b3[m testes de rotas e componentes
+[33m8c3287f[m Merge pull request #1 from rafaelcesar0/components
+[33mc5018a3[m[33m ([m[1;31morigin/components[m[33m)[m feat: add Header component and your children's
+[33m3e7d60c[m feat add react-icons
+[33mee2be34[m feat: add react routes dom
+[33mdcaee20[m adding tailwind as default and configuring
+[33me51bdbe[m image files added and Logo component ready
+[33m56a0fe7[m Folder structure pattern
