@@ -1,9 +1,10 @@
 import Layout from "../components/Layout"
+import ProductListing from "../components/product-listing/ProductListing"
 
 const HomePage = () => {
   return (
     <Layout>
-        HomePage
+      <ProductListing/>
     </Layout>
   )
 }
