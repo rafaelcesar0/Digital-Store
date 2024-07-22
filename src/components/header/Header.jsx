@@ -17,7 +17,7 @@ const Header = () => {
         <SearchInput/>
         <LoginButton/>
         </div>
-        <ShoppingCartButton notificationCount={2}/>
+        <ShoppingCartButton notificationCount={Math.floor(Math.random() * 4)}/>
       </div>
       <NavBar/>
     </header>
