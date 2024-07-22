@@ -1,4 +1,3 @@
-import Logo from '../Logo'
 
 
 const CardsFooter = () => {
@@ -6,7 +5,7 @@ const CardsFooter = () => {
     
     <div className='flex gap-4'>
         <div className='flex flex-col ml-3'>
-            <h3 class="font-semibold mt-4">Informação</h3>
+            <h3 className="font-semibold mt-4">Informação</h3>
             <div className='flex flex-col mt-5 gap-y-3'>
                 <a href="#">Sobre Drip</a>
                 <a href="#">Segurança</a>
@@ -18,7 +17,7 @@ const CardsFooter = () => {
             
         </div>
         <div className='flex flex-col ml-10'>
-            <h3 class="font-semibold mt-4">Categoria</h3>
+            <h3 className="font-semibold mt-4">Categoria</h3>
             <div className='flex flex-col mt-5 gap-y-3'>
                 <a href="#">Camisetas</a>
                 <a href="#">Calças</a>
