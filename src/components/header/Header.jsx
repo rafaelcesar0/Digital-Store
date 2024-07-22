@@ -15,7 +15,7 @@ const Header = () => {
         <Logo src='src/assets/logo-header.svg'/>
         <div className='flex items-center justify-center gap-5'>
         <SearchInput/>
-        <LoginButton/>
+        <LoginButton style='font-semibold text-black bg-primary rounded-md px-10 py-2 '/>
         </div>
         <ShoppingCartButton notificationCount={Math.floor(Math.random() * 4)}/>
       </div>
