@@ -1,4 +1,4 @@
-let Product = [
+const ProductItens = [
     {
         name: "K-Swiss V9 - Masculino",
         image: "public/produc-image-5.jpeg",
@@ -44,5 +44,6 @@ let Product = [
         price: 200,
 
     },
-]
-export default Product
+];
+
+export default ProductItens;

@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProductCard = ({props}) => {
   let css = ''
   let discount = ''
@@ -24,3 +22,25 @@ const ProductCard = ({props}) => {
 }
 
 export default ProductCard
+
+// --- Refaroração de @rafaelcesar0 ---
+// const ProductCard = ({ name, image, price, priceDiscount }) => {
+//   const hasDiscount = price > priceDiscount;
+//   const priceClass = hasDiscount ? 'line-through text-light-gray' : '';
+//   const formattedDiscountPrice = hasDiscount ? `$${priceDiscount}` : '';
+
+//   return (
+//     <div className="p-4 border rounded-md shadow-sm">
+//       <img className="h-80 w-72 object-cover rounded-md" src={image} alt={name} />
+//       <div className="mt-4">
+//         <h1 className="text-2xl text-dark-gray-3 mb-2">{name}</h1>
+//         <div className="flex gap-4 items-center">
+//           <span className={`text-2xl text-dark-gray ${priceClass}`}>${price}</span>
+//           {hasDiscount && (
+//             <span className="text-2xl text-dark-gray font-semibold">{formattedDiscountPrice}</span>
+//           )}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
