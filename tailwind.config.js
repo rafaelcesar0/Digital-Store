@@ -19,12 +19,24 @@ export default {
         'light-gray': 'var(--light-gray)',
         'light-gray-2': 'var(--light-gray-2)',
         'light-gray-3': 'var(--light-gray-3)',
-        'white': 'var(--white)',
+        white: 'var(--white)',
       },
       fontFamily: {
         sans: ['Poppins', 'Inter', 'sans-serif'],
       },
+      container: {
+        center: true,
+        padding: '1rem', // px-4 equivalente
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container-default': {
+          '@apply w-full max-w-screen-xl mx-auto px-4 gap-32': {},
+        },
+      });
+    },
+  ],
 };

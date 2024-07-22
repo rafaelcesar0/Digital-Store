@@ -9,7 +9,7 @@ const ProductListing = () => {
     cards.push (<ProductCard props={ProductItens[i]} />)
 
   }
-  return  <div className="flex flex-wrap gap-4 "> {cards} </div>
+  return  <div className="flex flex-wrap gap-4 justify-center"> {cards} </div>
  
 }
 
