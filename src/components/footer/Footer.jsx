@@ -23,7 +23,7 @@ const Footer = () => {
 
       <div className=''>
         <hr />
-        <p className='flex justify-center items-center mt-5'>
+        <p className='flex justify-center items-center my-5'>
           @ 2022 Digital College
         </p>
       </div>
