@@ -3,7 +3,6 @@ import Logo from '../Logo'
 
 const CardsFooter = () => {
     return (
-    <>
     
     <div className='flex gap-4'>
         <div className='flex flex-col ml-3'>
@@ -31,7 +30,6 @@ const CardsFooter = () => {
         </div>
     </div>
     
-    </>
     );
 };
 
