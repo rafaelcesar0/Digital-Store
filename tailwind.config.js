@@ -19,7 +19,7 @@ export default {
         'light-gray': 'var(--light-gray)',
         'light-gray-2': 'var(--light-gray-2)',
         'light-gray-3': 'var(--light-gray-3)',
-        white: 'var(--white)',
+        'white': 'var(--white)',
       },
       fontFamily: {
         sans: ['Poppins', 'Inter', 'sans-serif'],
