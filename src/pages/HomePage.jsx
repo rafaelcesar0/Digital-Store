@@ -16,6 +16,7 @@ const HomePage = () => {
           '/public/home-slide-8.jpeg',
         ]}
       />
+      <ProductListing/>
     </Layout>
   );
 };

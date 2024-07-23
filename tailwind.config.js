@@ -27,7 +27,19 @@ module.exports = withMT({
       fontFamily: {
         sans: ['Poppins', 'Inter', 'sans-serif'],
       },
+      container: {
+        center: true,
+        padding: '1rem', // px-4 equivalente
+      },
     },
   },
-  plugins: [],
-});
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.container-default': {
+          '@apply w-full max-w-screen-xl mx-auto px-4 gap-32': {},
+        },
+      });
+    },
+  ],
+};
