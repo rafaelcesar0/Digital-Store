@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
+import ProductListing from '../components/product-listing/ProductListing';
 
 const HomePage = () => {
   return (
