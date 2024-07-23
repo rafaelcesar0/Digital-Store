@@ -7,10 +7,11 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header/>
-      <main>
+      <main className="bg-light-gray-3">
         {children}
+        <BuyBox />
       </main>
-      <BuyBox />
+      
       <Footer />
       
     </div>

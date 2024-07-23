@@ -5,31 +5,37 @@ const ProductOptions = () => {
   const options = [
     {
       length: ["38", "39", "40", "41", "42"],
-      color: ['#111111', '#4FF22F', '#111111', '#4FF22F']
+      color: ['var(--color-primary)', 'var(--color-primary-2)' , 'var(--color-error)', 'var(--color-success)']
     },
   ]
   return (
     <>
-    <div>   
-      <span>Tamanho</span>
-      <ul className="flex gap-3">
-        <li>{options[0].length[0]}</li>
-        <li>{options[0].length[1]}</li>
-        <li>{options[0].length[2]}</li>
-        <li>{options[0].length[3]}</li>
-        <li>{options[0].length[4]}</li>
+    <div className="font-semibold mt-5">   
+      <span className="text-light-gray pl-3">Tamanho</span>
+      <ul className="flex gap-3 p-3">
+        <li>
+          <button>{options[0].length[0]}</button>         
+        </li>
+        <li>
+          <button>{options[0].length[1]}</button>
+        </li>
+        <li>
+          <button>{options[0].length[2]}</button>
+        </li>
+        <li>
+          <button>{options[0].length[4]}</button>
+        </li>
+
       </ul>
     </div>
-    <div>
-      <span>Cor</span>
-      <ul className="flex">
-        <li style={{ backgroundColor: options[0].color[0] }}></li>
-        <li style={{ backgroundColor: options[0].color[1] }}></li>
-        <li style={{ backgroundColor: options[0].color[2] }}></li>
-        <li style={{ backgroundColor: options[0].color[2] }}></li>
-        <li style={{ backgroundColor: options[0].color[2] }}></li>
+    <div className="pl-3">
+      <span className="text-light-gray text-light-gray">Cor</span>
+      <ul className="flex gap-3">
+        <li style={{ backgroundColor: options[0].color[0] }} className="p-4 rounded-full"></li>
+        <li style={{ backgroundColor: options[0].color[1] }} className="p-4 rounded-full"></li>
+        <li style={{ backgroundColor: options[0].color[2] }} className="p-4 rounded-full"></li>
+        <li style={{ backgroundColor: options[0].color[2] }} className="p-4 rounded-full"></li>
       </ul>
-      {console.log(options[0].color[3])}
     </div>
     </>
   )
