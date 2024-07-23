@@ -10,9 +10,9 @@ const ProductOptions = () => {
   ]
   return (
     <>
-    <div className="font-semibold mt-5">   
-      <span className="text-light-gray pl-3">Tamanho</span>
-      <ul className="flex gap-3 p-3">
+    <div className="flex flex-col gap-y-2 font-semibold mt-5">   
+      <span className="text-light-gray">Tamanho</span>
+      <ul className="flex gap-3 p-x-3">
         <li>
           <button>{options[0].length[0]}</button>         
         </li>
@@ -28,8 +28,8 @@ const ProductOptions = () => {
 
       </ul>
     </div>
-    <div className="pl-3">
-      <span className="text-light-gray text-light-gray">Cor</span>
+    <div className="">
+      <span className="text-light-gray font-semibold">Cor</span>
       <ul className="flex gap-3">
         <li style={{ backgroundColor: options[0].color[0] }} className="p-4 rounded-full"></li>
         <li style={{ backgroundColor: options[0].color[1] }} className="p-4 rounded-full"></li>
