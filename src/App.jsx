@@ -31,9 +31,7 @@ function App() {
 
   return (
     <>
-    <div className="">
       <AppRountes/>
-    </div>
     </>
   )
 }

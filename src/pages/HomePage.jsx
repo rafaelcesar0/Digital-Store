@@ -1,10 +1,12 @@
 import Layout from '../components/Layout';
 import Gallery from '../components/Gallery';
 import ProductListing from '../components/product-listing/ProductListing';
+import BuyBox from '../components/BuyBox/BuyBox';
 
 const HomePage = () => {
   return (
     <Layout>
+      <BuyBox />
       <Gallery
         slides={[
           '/public/home-slide-1.jpeg',
@@ -19,7 +21,7 @@ const HomePage = () => {
       />
       <ProductListing/>
     </Layout>
-  );
+  )
 };
 
 export default HomePage;

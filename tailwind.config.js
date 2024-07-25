@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+import withMT from "@material-tailwind/react/utils/withMT";
+module.exports = withMT ({
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -19,24 +20,12 @@ export default {
         'light-gray': 'var(--light-gray)',
         'light-gray-2': 'var(--light-gray-2)',
         'light-gray-3': 'var(--light-gray-3)',
-        white: 'var(--white)',
+        'white': 'var(--white)',
       },
       fontFamily: {
         sans: ['Poppins', 'Inter', 'sans-serif'],
       },
-      container: {
-        center: true,
-        padding: '1rem', // px-4 equivalente
-      },
     },
   },
-  plugins: [
-    function ({ addComponents }) {
-      addComponents({
-        '.container-default': {
-          '@apply w-full max-w-screen-xl mx-auto px-4 gap-32': {},
-        },
-      });
-    },
-  ],
-};
+  plugins: [],
+});

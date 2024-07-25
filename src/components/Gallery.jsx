@@ -58,14 +58,14 @@ export default function Gallery({ slides }) {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer transition duration-300 ease-in-out'
+            className='text-2xl cursor-pointer'
           >
             <RxDotFilled
               size={34}
               className={
                 currentIndex === slideIndex
-                  ? 'text-primary transition-colors duration-300 ease-in-out'
-                  : 'text-light-gray-2 transition-colors duration-300 ease-in-out'
+                  ? 'text-primary'
+                  : 'text-light-gray-2'
               }
             />
           </div>
