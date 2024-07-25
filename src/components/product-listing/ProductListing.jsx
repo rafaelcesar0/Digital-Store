@@ -1,19 +1,15 @@
-import ProductCard from "../product-card/ProductCard.jsx";
-import ProductItens from "./ProductItens.jsx";
-
+import ProductCard from '../product-card/ProductCard.jsx';
+import ProductItens from './ProductItens.jsx';
 
 const ProductListing = () => {
-  let cards = []
-  for (let i = 0; i < ProductItens.length; i++){
-
-    cards.push (<ProductCard props={ProductItens[i]} />)
-
+  let cards = [];
+  for (let i = 0; i < ProductItens.length; i++) {
+    cards.push(<ProductCard props={ProductItens[i]} />);
   }
-  return  <div className="flex flex-wrap gap-4 "> {cards} </div>
- 
-}
+  return <div className='flex flex-wrap gap-4 justify-center'> {cards} </div>;
+};
 
-export default ProductListing
+export default ProductListing;
 
 // --- Refaroração de @rafaelcesar0 ---
 // const ProductListing = () => (

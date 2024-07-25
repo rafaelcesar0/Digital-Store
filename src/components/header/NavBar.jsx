@@ -39,7 +39,7 @@ const NavBar = () => {
         </li>
         <li>
           <Link
-            to="/home" 
+            to="" 
           >
             Meus Pedidos
           </Link>

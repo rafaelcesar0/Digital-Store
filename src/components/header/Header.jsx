@@ -10,17 +10,17 @@ const Header = () => {
   
 
   return (
-    <header className='flex flex-col gap-4 py-5'>
-      <div className='flex items-center justify-between gap-5'>
-        <Logo src='src/assets/logo-header.svg'/>
-        <div className='flex items-center justify-center gap-5'>
-        <SearchInput/>
-        <LoginButton/>
+      <header className='flex flex-col gap-4 p-5 '>
+        <div className='flex items-center justify-between gap-5'>
+          <Logo src='src/assets/logo-header.svg'/>
+          <div className='flex items-center justify-center gap-5'>
+          <SearchInput/>
+          <LoginButton/>
+          </div>
+          <ShoppingCartButton notificationCount={Math.floor(Math.random() * 4)}/>
         </div>
-        <ShoppingCartButton notificationCount={Math.floor(Math.random() * 4)}/>
-      </div>
-      <NavBar/>
-    </header>
+        <NavBar/>
+      </header>
   )
 }
 

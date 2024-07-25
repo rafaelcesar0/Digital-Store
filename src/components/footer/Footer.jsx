@@ -3,17 +3,13 @@ import Description from './Description';
 import SocialIcons from './SocialIcons';
 import Contact from './Contact';
 
-
-
-  
 const Footer = () => {
   return (
- 
-    <footer className='grid grid-cols-3 grid-rows-1 pt-12 pl-12 pb-5 bg-[var(--dark-gray)] text-[--white]'>
-        
+    <footer className='flex flex-col gap-10 bg-dark-gray text-white'>
+      <div className='flex flex-row justify-center items-cente mt-10 w-full max-w-screen-xl mx-auto px-4'>
         <div className='mr-7 ml-7 '>
           <Description />
-          <SocialIcons/>
+          <SocialIcons />
         </div>
 
         <div className='ml-7'>
@@ -23,18 +19,16 @@ const Footer = () => {
         <div className='mr-10 ml-7'>
           <Contact />
         </div>
+      </div>
 
-        <div className='col-span-4 mr-10 mt-12' >
-          <hr />
-          <p className='flex justify-center items-center mt-5'>@ 2022 Digital College</p>
-        </div>
-        
-
+      <div className=''>
+        <hr />
+        <p className='flex justify-center items-center my-5'>
+          @ 2022 Digital College
+        </p>
+      </div>
     </footer>
-
-    
-  
-  )
-}
+  );
+};
 
 export default Footer;
